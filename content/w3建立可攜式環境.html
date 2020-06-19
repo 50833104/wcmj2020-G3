@@ -110,6 +110,7 @@ img.add_border {
 </head>
 <body>
 <div class='container'><nav>
+        
     <div class="site-wrap">
 
     <div class="site-mobile-menu">
@@ -155,4 +156,58 @@ img.add_border {
           </div>
           
         </header>
-    </nav><section><h1>Site Map</h1><div id="tipue_search_content"></div><ul><li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a><li><a href='w1.html'>w1</a><li><a href='w2.html'>w2</a><li><a href='w3建立可攜式環境.html'>w3建立可攜式環境</a><li><a href='w4建網站.html'>w4建網站</a><li><a href='w5.html'>w5</a><li><a href='w6.html'>w6</a><li><a href='w7-8.html'>w7-8</a><li><a href='w9期中考.html'>w9期中考</a><li><a href='w10-12如何用ssh.html'>w10-12如何用ssh</a><li><a href='W13.html'>W13</a><li><a href='w14.html'>w14</a><li><a href='w15-18統整.html'>w15-18統整</a></li></ul></section></div></body></html>
+    <div id="tipue_search_content">w2 << <a href='w2.html'>Previous</a> <a href='w4建網站.html'>Next</a> >> w4建網站<br /><h1>w3建立可攜式環境</h1>
+<p><br/>建立可攜式環境</p>
+<p>為了讓工程師可以在不同的 Windows 10 64 位元電腦上管理 CMSiMDE 網際內容管理系統, 因此需要 Python 解譯環境以及一個文字檔案的編輯器.</p>
+<p>這裡所安裝的 Python 解譯器選擇由 C 所編寫的 CPython, 可以從 https://www.python.org/ 下載安裝. 但是在此我們要將 Python 解譯系統配置在 USB 隨身碟上, 使用者可以隨身攜帶, 一旦配置完成後, 可以在任何一台 Windows 10 64 位元的筆電或電腦上執行 Python 或 C 程式.</p>
+<p>可攜 Python 程式環境的建立步驟:</p>
+<p>安裝 Python 套件時, 不要安裝 pip, 之後將 Python38 目錄複製到 data 目錄中, 然後建立 start.bat 指定使用可攜系統中的 Python, 之後再利用 get-pip.py, 以命令列中的 python get-pip.py 安裝 pip.</p>
+<p>可攜 Tiny C 程式環境的建立步驟:</p>
+<p>從 https://bellard.org/tcc/ 下載 Tiny C, 將 tcc 解開壓縮後放到 data 目錄中. 然後修改 wscite 目錄中的 cpp.properties, 使用 Tiny C 類解譯 .c 程式.</p>
+<p>選用的文字編輯器: https://www.scintilla.org/SciTE.html</p>
+<p>建立完成的可攜程式環境:</p>
+<p>下載 wcmj2020_tool.7z, 檔案大小為 435 MB, 解開壓縮後為 1.8 GB (其中包括 Mypaint, Dia 與 OBS 等)</p>
+<p>將 wcmj2020_tool.7z 解壓縮到隨身碟或電腦硬碟中, 將 home 與 home_ipv6 目錄中的 .gitconfig user.name 與 user.email 改為自己的 Github 帳號與 email 後, 利用 start.bat 啟動可攜系統, 利用 stop.bat 關閉可攜系統.</p>
+<br />w2 << <a href='w2.html'>Previous</a> <a href='w4建網站.html'>Next</a> >> w4建網站</div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        </body></html>
+        
