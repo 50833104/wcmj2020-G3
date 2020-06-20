@@ -1,23 +1,8 @@
-<h1>About</h1>
-<p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
-<h4>利用 cmsimde 建立靜態網誌方法:</h4>
-<p>1. 在 github 建立倉儲, git clone 到近端</p>
-<p>2. 參考 <a href="https://github.com/mdecourse/newcms">https://github.com/mdecourse/newcms</a>, 加入除了 cmsimde 目錄外的所有內容</p>
-<p>以 git submodule add <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> cmsimde</p>
-<p>建立 cmsimde 目錄, 並從 github 取下子模組內容.</p>
-<p>3.在近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.</p>
-<p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
-<p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
-<p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
-<h1>Develop</h1>
-<p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
-<p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
-<p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
 <h1>w1</h1>
 <p><br/>建立blogger</p>
 <p>課程小單字</p>
 <p>1 super computer 超級電腦<br/>2pc=person computer 個人電腦 <br/>3mainframe 伺服器主機<br/>4 server 伺服器 (虛擬 實體)<br/>5 mobile phone 手機<br/>6 microcontroller 微控制器</p>
-<p>Port 埠號<br/>DHCP動態網路位置</p>
+<p>Port 埠號<br/>DHCP動態網路位置.</p>
 <h1>w2</h1>
 <p><br/>課程小筆記</p>
 <p>IPv4 version 4 IP 四個區段,用.隔開<br/>IPv6 version 6 IP 八個區段,用:隔開<br/>[2001:288:6004:17::53]:3128 140.130.17.53:3128<br/>[2001:288:6004:17::42]:3128 140.130.17.53:254(系gateway通道)<br/>[2001:288:6004:17::17]:3128 140.130.1.*(校主幹)<br/>[2001:288:6004:17::7]:3128</p>
@@ -756,10 +741,14 @@
 <h3>Android</h3>
 <p style="font-weight: 400;">Andriod<span> </span>智慧手錶使用心得 50833114胡嘉盛</p>
 <p style="font-weight: 400;">Asus Vivowatch-BP<span> </span>華碩推出的健康智慧手表，我對他的第一印象就是他的外型時尚好看，戴起來輕盈無負擔，是個很棒的科技產品。這隻手錶不僅能隨時監控偵測並記錄你的身體健康狀態，如：心律、血壓、睡覺時數、運動狀態等，甚至他還會藉由這些數據計算出你的身體健康及運動狀況，並適時給予你健康管理上的建議。他還可以隨時接收你手機的訊息，有人來電或者是有人給你傳訊息時都會給你完整且簡單明瞭的訊息提示，增進我生活上的方便，讓我的生活更加便利。這隻手錶還有很多很棒的地方，等著你一一去發現。</p>
-<h3>WatchOS</h3>
+<p style="font-weight: 400;"><span>Andriod</span><span> </span><span>智慧手錶使用心得 50833125黃尹辰</span></p>
+<p style="font-weight: 400;"><span>它可以 除了可以紀錄時間外，還能隨時知道自己的心跳和今天走的步數，他的運 動功能類型可以分為室內跑步、室外跑步、健走、騎行，在不同的運動模 式下，分別可以看到：運動時長、配速、最高時速、距離、即時心率，上 下坡高度等等。 這款手錶還能連結手機上的通訊軟體，可以看到訊息中的文字，但如果是 圖片就沒辦法顯示，它還會有個簡易的氣象報告。除此之外，它的用電量 很省，充一次電就能撐 20 多天。整體來說使用的感想不錯，只是有時候 GPS 不太準。 </span></p>
+<h3>WatchOS222</h3>
 <p>Apple Watch 使用心得 50833104曾容琪</p>
 <h6>使用很方便</h6>
 <h6>例如抬腕顯示,不會太耗電,抬起手腕就能看到時間</h6>
 <p>還可以監測健康心跳和今天的運動情況</p>
 <p>並且錶面圖片可以依照自己的喜好變換</p>
 <p>我覺得還蠻值得的</p>
+<p><span>Apple Watch 使用心得 50833141黃智翔</span></p>
+<p><span>在這個手環中 我充分體會到 手錶不再是手錶 手錶從原本的功能 慢慢結合科技 成就了21世代中的科技產物 在這個搭載IOS 系統的手錶中 我們可以實現 手機的遠端操作 檢測心跳 收發訊息 以及撥打電話 不在依賴手機本體的操作 使我們生活更加便利 也對行車安全帶來更高的安全性 在此之外 這個手環還結合了NFC 使得我們在購物時 無須使用現金和實體信用卡 我們僅需將手錶靠近付款工具 輕觸即可 方便又快速</span></p>
